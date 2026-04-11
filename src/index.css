@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-bg text-light overflow-x-hidden; }
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { @apply bg-surface; }
+  ::-webkit-scrollbar-thumb { @apply bg-accent-dim rounded-full; }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #6ee7b7 0%, #3b82f6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .bg-grid {
+    background-image:
+      linear-gradient(rgba(110,231,183,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(110,231,183,0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+  .orb-green {
+    background: radial-gradient(circle, #6ee7b7 0%, transparent 70%);
+    filter: blur(80px);
+  }
+  .orb-blue {
+    background: radial-gradient(circle, #3b82f6 0%, transparent 70%);
+    filter: blur(80px);
+  }
+  .progress-bar {
+    background: linear-gradient(90deg, #6ee7b7, #3b82f6);
+  }
+}
