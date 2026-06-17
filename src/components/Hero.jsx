@@ -41,9 +41,9 @@ export default function Hero() {
             className="inline-flex items-center gap-2 px-7 py-3.5 bg-accent text-bg font-display font-semibold rounded-full hover:bg-accent-dim transition-all duration-200 hover:scale-105 active:scale-95 no-underline">
             Contáctame <ArrowRight size={16} />
           </a>
-          <a href="public/CV-DavidBarragan.pdf" download
+          <a href="/public/CV-DavidBarragan.pdf" download
             className="inline-flex items-center gap-2 px-7 py-3.5 border border-border text-soft rounded-full hover:border-accent/40 hover:text-accent transition-all duration-200 no-underline font-display">
-            <Download size={16} /> Descargar CV
+            <Download size={16} /> Descargar CV ··
           </a>
         </div>
 
