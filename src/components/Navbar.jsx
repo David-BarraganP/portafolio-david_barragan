@@ -25,8 +25,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#home" className="flex flex-col no-underline">
           <span className="font-display font-bold text-lg text-light">
-            <span className="text-accent">D</span>B
-            <span className="text-muted font-light text-sm ml-1">/ dev</span>
+            <img src="/logo_db.avif" alt="logo DB" className="h-14 w-14" />
           </span>
         </a>
 

@@ -9,7 +9,7 @@ export default function Footer() {
           <p className="font-display font-bold text-lg text-light">
             <span className="text-accent">D</span>B
           </p>
-          <p className="font-body text-muted text-xs mt-1">Full Stack Developer · Yopal, Colombia</p>
+          <p className="font-body text-muted text-xs mt-1">Back-End Developer</p>
         </div>
         <p className="font-mono text-muted text-xs">© {year} David Barragán. Todos los derechos reservados.</p>
         <div className="flex gap-3">

@@ -20,18 +20,20 @@ export default function About() {
           {/* Text */}
           <div>
             <p className="font-body text-soft text-base leading-relaxed mb-6">
-              He participado en numerosos proyectos web, desarrollando una sólida base técnica y una mentalidad
-              enfocada en encontrar soluciones. Me caracterizo por mi habilidad para asimilar rápidamente nuevas tecnologías.
+              He participado en el desarrollo de distintas aplicaciones web, especializándome progresivamente en el área del back-end. 
+              Disfruto diseñando soluciones que sean fiables, escalables y fáciles de mantener, cuidando tanto la arquitectura como la calidad del código.
+              Mi experiencia incluye la construcción de APIs REST con Node.js y Express, modelado de bases de datos con PostgreSQL e integración de servicios que permiten que los productos funcionen de forma eficiente detrás de escena.
             </p>
             <p className="font-body text-dim text-sm leading-relaxed">
-              Con experiencia en el stack completo — desde interfaces con React y Tailwind hasta APIs robustas
-              con Node.js, Express y PostgreSQL — busco siempre entregar software de calidad que genere valor real.
+              Aunque cuento con experiencia en el desarrollo full stack, actualmente estoy enfocado en profundizar mis conocimientos en 
+              ingeniería back-end y en crear sistemas sólidos que aporten valor real.
+              
             </p>
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4 mt-10">
               {[
-                { num: '4+', label: 'Proyectos' },
+                { num: '1+', label: 'Proyectos' },
                 { num: '2+', label: 'Años exp.' },
                 { num: '100%', label: 'Compromiso' },
               ].map(s => (

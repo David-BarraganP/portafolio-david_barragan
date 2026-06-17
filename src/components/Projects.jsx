@@ -2,41 +2,14 @@ import { ExternalLink, GitBranch, ArrowUpRight } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Music App',
-    description: 'Aplicación de música donde los usuarios pueden crear sus listas de canciones favoritas, con autenticación y reproducción integrada.',
-    image: './assets/img/migProyects/image-music.png',
-    stack: ['React', 'Tailwind', 'Axios', 'Spotify API'],
-    live: 'https://app-music-zeta.vercel.app/login',
-    github: 'https://github.com/David-BarraganP/app-music',
-    accent: 'text-accent',
-  },
-  {
-    title: 'E-commerce',
+    title: 'Super Extra',
     description: 'Plataforma de comercio electrónico con backend robusto para gestión de productos y procesamiento de compras.',
-    image: './assets/img/migProyects/image-ecommerce.png',
+    image: 'public/image.png',
     stack: ['JavaScript', 'Jest', 'Express', 'Sequelize', 'bcrypt'],
-    live: 'https://entregable-final-frontend.vercel.app/',
-    github: 'https://github.com/David-BarraganP/entregable-final',
+    live: 'https://super-extra-front-end.vercel.app/',
+    github: 'https://github.com/David-BarraganP/superExtraBack.git',
     accent: 'text-blue-400',
-  },
-  {
-    title: 'Rick & Morty App',
-    description: 'Aplicación para explorar dimensiones y personajes de Rick and Morty consumiendo su API oficial.',
-    image: './assets/img/migProyects/image-rickM.png',
-    stack: ['React', 'Tailwind', 'Axios', 'Rick & Morty API'],
-    live: 'https://entregable-3-neon.vercel.app/',
-    github: 'https://github.com/David-BarraganP/entregable_3',
-    accent: 'text-purple-400',
-  },
-  {
-    title: 'Weather App',
-    description: 'App del clima con búsqueda por ciudad o país que muestra temperatura en °C y °F con datos en tiempo real.',
-    image: './assets/img/migProyects/imageweather.png',
-    stack: ['React', 'Tailwind', 'Weather API'],
-    live: 'https://entregable-2-pink.vercel.app/',
-    github: 'https://github.com/David-BarraganP/entregable_2',
-    accent: 'text-yellow-400',
-  },
+  }
 ];
 
 export default function Projects() {

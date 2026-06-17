@@ -23,14 +23,16 @@ export default function Hero() {
         {/* Role */}
         <div className="flex items-center justify-center gap-3 mb-6">
           <div className="h-px w-16 bg-border" />
-          <p className="font-body text-soft text-lg">Full Stack Web Developer</p>
+          <p className="font-body text-soft text-lg">Back-End Developer</p>
           <div className="h-px w-16 bg-border" />
         </div>
 
         {/* Description */}
         <p className="font-body text-dim text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-          Especializado en <span className="text-accent">React</span>, <span className="text-accent">Node.js</span> y{' '}
-          <span className="text-accent">Express</span>. Construyo interfaces rápidas, escalables y con excelente experiencia de usuario.
+          Especializado en, <span className="text-accent">Node.js</span> y{' '}
+          <span className="text-accent">Express</span>. Desarrollo la lógica que impulsa aplicaciones modernas mediante la creación de 
+          APIs REST con Node.js y Express, el modelado y gestión de bases de datos mediante ORM con Sequelize, la implementación de migraciones con 
+          Sequelize CLI y el diseño de arquitecturas escalables orientadas al rendimiento, la seguridad y la mantenibilidad del software.
         </p>
 
         {/* CTAs */}
@@ -47,13 +49,14 @@ export default function Hero() {
 
         {/* Socials */}
         <div className="flex items-center justify-center gap-4">
+          
           <a href="https://github.com/David-BarraganP" target="_blank" rel="noreferrer"
             className="p-2.5 rounded-xl bg-surface border border-border text-dim hover:text-accent hover:border-accent/30 transition-all duration-200">
-            <GitBranch size={18} />
+            <img src="/github.avif" alt="gitHub" className="h-10 w-10 rounded" />
           </a>
           <a href="https://www.linkedin.com/in/david-barrag%C3%A1n-9a353b1b9/" target="_blank" rel="noreferrer"
             className="p-2.5 rounded-xl bg-surface border border-border text-dim hover:text-accent hover:border-accent/30 transition-all duration-200">
-            <Link size={18} />
+            <img src="/linkedin.avif" alt="linkedin" className="h-10 w-10 rounded" />
           </a>
         </div>
       </div>
