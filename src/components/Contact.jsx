@@ -2,7 +2,7 @@ import { Phone, Mail, MessageCircle, Link, GitBranch, ArrowRight } from 'lucide-
 
 const contacts = [
   { icon: <Phone size={18} />, label: 'Llamar', value: '+57 350 686 4396', href: 'tel:+573506864396', color: 'text-accent bg-accent/10' },
-  { icon: <Mail size={18} />, label: 'Email', value: 'david25barragan@gmail.com', href: 'mailto:david25barragan@gmail.com', color: 'text-blue-400 bg-blue-400/10' },
+  { icon: <Mail size={18} />, label: 'Email', value: 'david25barragan@gmail.com', href: 'https://mail.google.com/mail/u/0/?to=david25barragan@gmail.com&fs=1&tf=cm', color: 'text-blue-400 bg-blue-400/10' },
   { icon: <MessageCircle size={18} />, label: 'WhatsApp', value: 'Enviar mensaje', href: 'https://bit.ly/whatsapp-davidbarragan', color: 'text-green-400 bg-green-400/10' },
   { icon: <Link size={18} />, label: 'LinkedIn', value: 'david-barragán', href: 'https://www.linkedin.com/in/david-barrag%C3%A1n-9a353b1b9/', color: 'text-sky-400 bg-sky-400/10' },
   { icon: <GitBranch size={18} />, label: 'GitHub', value: 'David-BarraganP', href: 'https://github.com/David-BarraganP', color: 'text-purple-400 bg-purple-400/10' },
