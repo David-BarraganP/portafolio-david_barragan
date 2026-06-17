@@ -4,7 +4,7 @@ const projects = [
   {
     title: 'Super Extra',
     description: 'Plataforma de comercio electrónico con backend robusto para gestión de productos y procesamiento de compras.',
-    image: 'public/image.png',
+    image: '/image.png',
     stack: ['JavaScript', 'Jest', 'Express', 'Sequelize', 'bcrypt'],
     live: 'https://super-extra-front-end.vercel.app/',
     github: 'https://github.com/David-BarraganP/superExtraBack.git',
