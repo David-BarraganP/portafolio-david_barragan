@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Reviews from './components/Reviews';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 
 function ProgressBar() {
   const [progress, setProgress] = useState(0);
@@ -37,6 +38,7 @@ export default function App() {
       <Reviews />
       <Contact />
       <Footer />
+       <WhatsAppButton /> 
     </div>
   );
 }
